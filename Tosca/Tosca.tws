@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TCWorkspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkspaceRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>.\Repository\Tosca.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\ToscaGithub\Tosca\Repository\Tosca.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </WorkspaceRepository>
+  <CommonRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>C:\Tosca_Projects\ToscaGithub\Tosca\CommonRepository\CommonRepository.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\ToscaGithub\Tosca\CommonRepository\CommonRepository.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </CommonRepository>
+  <DefaultUser>
+    <UserName>Admin</UserName>
+    <UserSurrogate>3a126018-93ed-5a74-18ff-50465e9ff017</UserSurrogate>
+  </DefaultUser>
+  <TCWorkspaceID>196e76c0-cf05-453e-902e-f9891040ba08</TCWorkspaceID>
+  <TCCommonRepositoryID>6a90061c-a015-4f1e-8b54-cd0189403c9a</TCCommonRepositoryID>
+  <TCWorkspaceDescription />
+</TCWorkspace>
