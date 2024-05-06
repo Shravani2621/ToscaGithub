@@ -1,0 +1,232 @@
+[3] 16:16:46: Log started for 'D:\Tosca_Projects\Devops_tosca_Integration\Devops_tosca_Integration.tws'
+[3] 16:16:46: Log level: 4
+[3] 16:16:46: Release: 23.2.0.3226
+[3] 16:16:46: Execution Approval is disabled.
+[3] 16:16:46: No service discovery configured.
+[3] 16:16:46:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 16:16:46: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 16:16:46: Searcher found 0 results in 2.3635 ms
+[3] 16:16:46:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 16:16:46:  + RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 16:16:46:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 16:16:46:  + ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 16:16:46:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 16:16:46:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 16:16:46: Opened from Workspace File 'D:\Tosca_Projects\Devops_tosca_Integration\Devops_tosca_Integration.tws'
+[3] 16:16:46: Trying to authenticate ldap user sss927832 against workspace
+[3] 16:16:47: Failed to authenticate ldap user against workspace
+[4] 16:16:47:  ShowStatusInfo: 'Ready'
+[3] 16:16:49: Workspace.Login for 'Admin'succeeded
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:16:51:  ShowStatusInfo: 'Ready'
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:16:51:  ShowStatusInfo: 'Ready'
+[4] 16:16:51:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:16:51:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:16:51:  ShowStatusInfo: 'Ready'
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:16:51:  ShowStatusInfo: 'Ready'
+[4] 16:16:51:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:16:51:  ShowStatusInfo: 'Refresh all finished'
+[3] 16:16:51: OpenWorkspace took 00:00:05.6625754 to finish
+[3] 16:16:51: File Service is disabled.
+[4] 16:16:54:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:16:54:  ShowStatusInfo: 'Ready'
+[4] 16:16:54:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:16:54:  ShowStatusInfo: 'Ready'
+[4] 16:16:54:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:16:56:  ShowStatusInfo: '1 object selected'
+[4] 16:16:56:  ShowStatusInfo: 'Ready'
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:16:58:  ShowStatusInfo: 'Ready'
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:16:58:  ShowStatusInfo: 'Ready'
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:16:58:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:16:59:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 16:16:59:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[3] 16:16:59: Started update with local revision 25 against common revision 27 with deferred revisions ''
+[4] 16:16:59:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 16:16:59:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[4] 16:16:59:  ShowStatusInfo: 'Checkout Tree: Collecting objects ... '
+[4] 16:17:00:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 16:17:00:  ShowStatusInfo: 'Ready'
+[4] 16:17:00:  ShowStatusInfo: 'Checkout Tree finalizing ...'
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:17:00:  ShowStatusInfo: 'Ready'
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:17:00:  ShowStatusInfo: 'Ready'
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:17:00:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:17:00:  ShowStatusInfo: 'Checkout Tree finished'
+[3] 16:17:00: Task 'Checkout Tree' finished
+[4] 16:17:01:  ShowStatusInfo: '1 object selected'
+[4] 16:17:01:  ShowStatusInfo: 'Ready'
+[3] 16:17:02: Task 'Create Folder' started on '/TestCases'
+[4] 16:17:02:  ShowStatusInfo: 'Create Folder'
+[4] 16:17:02:  ShowStatusInfo: 'Ready'
+[4] 16:17:02:  ShowStatusInfo: 'Folder finalizing ...'
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:17:02:  ShowStatusInfo: 'Ready'
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:17:02:  ShowStatusInfo: 'Ready'
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:17:02:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:17:02:  ShowStatusInfo: 'Folder finished'
+[3] 16:17:02: Task 'Create Folder' finished
+[4] 16:17:02:  ShowStatusInfo: 'Ready'
+[4] 16:17:12:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:17:12:  ShowStatusInfo: 'Ready'
+[4] 16:17:12:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:17:12:  ShowStatusInfo: 'Ready'
+[4] 16:17:12:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:17:13:  ShowStatusInfo: '1 object selected'
+[4] 16:17:13:  ShowStatusInfo: 'Ready'
+[3] 16:17:14: Task 'Export Subset' started on ''
+[4] 16:17:14:  ShowStatusInfo: 'Export Subset'
+[4] 16:17:24:  ShowStatusInfo: 'Export Subset: Collecting objects 11300'
+[4] 16:17:25:  ShowStatusInfo: 'Export Subset: Writing file 'C:\Users\sss927832\Downloads\Testing Subset.tsu' '
+[4] 16:17:27:  ShowStatusInfo: 'Ready'
+[4] 16:17:27:  ShowStatusInfo: 'Export Subset finished'
+[3] 16:17:27: Task 'Export Subset' finished
+[4] 16:17:32:  ShowStatusInfo: 'Ready'
+[4] 16:17:33:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 16:17:33:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 16:17:33: QTestIntegrationAddIn beginning to Export to QTest
+[3] 16:17:33: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 16:17:33: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 16:17:33: LinkTcToQTestService grouping testcases by same endpoint
+[3] 16:17:33: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 16:17:33: QTestIntegrationAddIn finished unlinking objects from QTest
+[4] 16:17:39:  ShowStatusInfo: 'Connecting to GitHub repository...'
+[3] 16:17:52: ObjectVersioning is enabled
+[3] 16:17:52: ObjectVersioning: Start collecting deleted objects
+[3] 16:17:52: ObjectVersioning: Finished collecting deleted objects
+[3] 16:17:52: ObjectVersioning: Begin creating changeset for 41 clusters.
+[3] 16:17:52: ObjectVersioning: Finished creating changeset.
+[4] 16:17:52:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 16:17:52:  ShowStatusInfo: 'Ready'
+[4] 16:17:52:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:17:52:  ShowStatusInfo: 'Ready'
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh navigation view 'Devops_tosca_Integration''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:17:52:  ShowStatusInfo: 'Ready'
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh detail view 'Devops_tosca_Integration''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:17:52:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:17:52:  ShowStatusInfo: 'Checkin all finished'
+[3] 16:17:52: Task 'Checkin all' finished
+[4] 16:17:57:  ShowStatusInfo: 'Ready'
+[3] 16:30:57: Closing Workspace!
+[3] 16:30:57: Log closed!

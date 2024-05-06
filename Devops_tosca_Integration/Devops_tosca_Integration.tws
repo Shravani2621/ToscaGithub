@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TCWorkspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkspaceRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>.\Repository\Devops_tosca_Integration.db</DatabasePathAndName>
+    <Database>D:\Tosca_Projects\Devops_tosca_Integration\Repository\Devops_tosca_Integration.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </WorkspaceRepository>
+  <CommonRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>D:\Tosca_Projects\Devops_tosca_Integration\CommonRepository\CommonRepository.db</DatabasePathAndName>
+    <Database>D:\Tosca_Projects\Devops_tosca_Integration\CommonRepository\CommonRepository.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </CommonRepository>
+  <DefaultUser>
+    <UserName>Admin</UserName>
+    <UserSurrogate>3a124ed5-b158-6b82-aa2a-32b20f62988d</UserSurrogate>
+  </DefaultUser>
+  <TCWorkspaceID>0833d366-d978-4047-87b5-5945c63a7f8c</TCWorkspaceID>
+  <TCCommonRepositoryID>c0500f3b-db19-4601-9b6d-1473a55cbd72</TCCommonRepositoryID>
+  <TCWorkspaceDescription />
+</TCWorkspace>
