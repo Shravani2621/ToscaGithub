@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the local repository directory
-cd D:\Tosca_Projects\Tosca_Devops
+cd C:\Tosca_Projects\ToscaGithub
 dir
 git status
 git branch
