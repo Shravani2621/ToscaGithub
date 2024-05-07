@@ -3,7 +3,7 @@
   <WorkspaceRepository>
     <RepoClass>SQLiteRepository</RepoClass>
     <DatabasePathAndName>.\Repository\Devops_tosca_Integration.db</DatabasePathAndName>
-    <Database>D:\Tosca_Projects\Devops_tosca_Integration\Repository\Devops_tosca_Integration.db</Database>
+    <Database>C:\Tosca_Projects\ToscaGithub\Devops_tosca_Integration\Repository\Devops_tosca_Integration.db</Database>
     <DatabaseUser />
     <DatabasePwd />
     <DatabaseSchema />

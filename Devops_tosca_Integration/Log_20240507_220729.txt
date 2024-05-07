@@ -1,0 +1,35 @@
+[3] 22:07:29: Log started for 'C:\Tosca_Projects\ToscaGithub\Devops_tosca_Integration\Devops_tosca_Integration.tws'
+[3] 22:07:29: Log level: 4
+[3] 22:07:29: Release: 23.2.0.3226
+[3] 22:07:29: Execution Approval is disabled.
+[3] 22:07:29: No service discovery configured.
+[3] 22:07:30:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 22:07:30: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 22:07:30: Searcher found 0 results in 3.9988 ms
+[3] 22:07:30:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 22:07:30:  + RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 22:07:30:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 22:07:30:  + ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 22:07:30:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 22:07:30:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 22:07:30: Opened from Workspace File 'C:\Tosca_Projects\ToscaGithub\Devops_tosca_Integration\Devops_tosca_Integration.tws'
+[3] 22:07:30: Could not bring Commander window to front!
+[3] 22:07:30: Trying to authenticate ldap user sss927832 against workspace
+[3] 22:07:31: Failed to authenticate ldap user against workspace
+[3] 22:07:34: Layout not saved: No Panels or Tabbed Documents
+[3] 22:07:38: Closing Workspace!
+[3] 22:07:38: Log closed!
