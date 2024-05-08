@@ -358,3 +358,9 @@
 [4] 16:17:49:  ShowStatusInfo: 'Checkout Tree finished'
 [3] 16:17:49: Task 'Checkout Tree' finished
 [4] 16:17:54:  ShowStatusInfo: 'Ready'
+[4] 16:21:00:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:21:00:  ShowStatusInfo: 'Ready'
+[4] 16:21:00:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:21:00:  ShowStatusInfo: 'Ready'
+[4] 16:21:00:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:21:05:  ShowStatusInfo: 'Ready'
