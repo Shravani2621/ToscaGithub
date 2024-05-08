@@ -1,0 +1,30 @@
+[3] 09:38:48: Log started for 'C:\Tosca_Projects\ToscaGithub\Tosca\Tosca.tws'
+[3] 09:38:48: Log level: 4
+[3] 09:38:48: Release: 23.2.0.3226
+[3] 09:38:48: Execution Approval is disabled.
+[3] 09:38:48: No service discovery configured.
+[3] 09:38:48:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 09:38:48:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 09:38:48: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 09:38:49: Searcher found 0 results in 67.9964 ms
+[3] 09:38:49:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 09:38:49:  + RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 09:38:49:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 09:38:49:  + ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 09:38:49:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 09:38:49:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 09:38:49: Opened from Workspace File 'C:\Tosca_Projects\ToscaGithub\Tosca\Tosca.tws'
+[3] 09:38:49: Could not bring Commander window to front!
