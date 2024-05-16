@@ -9,3 +9,20 @@
 [Info] 08-05-2024 09:48:36: -2147483648/-2147483648 - Recalculating index statistics
 [Info] 08-05-2024 09:48:36: Compacting Workspace - Recalculating Index Statistics finished in 00:00:00.0327026, database size: 28196864
 [Info] 08-05-2024 09:48:36: Compacting finished
+[Info] 10-05-2024 15:23:56: Auto-exclusion started
+[Info] 10-05-2024 15:23:57: 0/100 - Unused objects exclusion
+[Info] 10-05-2024 15:23:57: 50/100 - Unused objects exclusion
+[Info] 10-05-2024 15:23:57: 100/100 - Unused objects exclusion
+[Info] 10-05-2024 15:23:57: Auto-exclusion finished
+[Info] 10-05-2024 15:24:07: 67/100 - Defragmenting Data - [estimated time left 8 s]
+[Info] 10-05-2024 15:24:08: Compacting started
+[Info] 10-05-2024 15:24:08: 70/100 - Defragmenting Data - [estimated time left 7 s]
+[Info] 10-05-2024 15:24:09: Compacting Workspace - Defragmentation finished in 00:00:01.4768255, database size: 63729664
+[Info] 10-05-2024 15:24:09: 74/100 - Defragmenting Data - [estimated time left 6 s]
+[Info] 10-05-2024 15:24:09: Compacting Workspace - Recalculating Index Statistics finished in 00:00:00.0689438, database size: 63729664
+[Info] 10-05-2024 15:24:09: Compacting finished
+[Info] 10-05-2024 15:24:10: 78/100 - Defragmenting Data - [estimated time left 5 s]
+[Info] 10-05-2024 15:24:11: 82/100 - Defragmenting Data - [estimated time left 4 s]
+[Info] 10-05-2024 15:24:12: 86/100 - Defragmenting Data - [estimated time left 3 s]
+[Info] 10-05-2024 15:24:13: 90/100 - Defragmenting Data - [estimated time left 2 s]
+[Info] 10-05-2024 15:24:14: 93/100 - Defragmenting Data - [estimated time left 1 s]

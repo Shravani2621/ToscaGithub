@@ -1,0 +1,9 @@
+jumptonode "/Execution/ExecutionLists_1/<New ExecutionList>/UC_01_Creating a Part"
+task "clear log"
+task run
+save
+
+jumptonode "/TestCases/Team Center Use Cases/UC_01_Creating a Part"
+task "clear log"
+task run
+save
