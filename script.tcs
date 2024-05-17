@@ -3,7 +3,7 @@ task "clear log"
 task run
 save
 
-jumptonode "/TestCases/Team Center Use Cases/UC_01_Creating a Part"
+jumptonode "/Execution/ExecutionLists_1/<New ExecutionList>_2/UC_01 a_Creating a Part with Document"
 task "clear log"
 task run
 save
