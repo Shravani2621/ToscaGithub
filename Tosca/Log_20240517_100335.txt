@@ -1,0 +1,34 @@
+[3] 10:03:35: Log started for 'C:\Tosca_Projects\ToscaGithub\Tosca\Tosca.tws'
+[3] 10:03:35: Log level: 4
+[3] 10:03:35: Release: 23.2.0.3226
+[3] 10:03:35: Execution Approval is disabled.
+[3] 10:03:35: No service discovery configured.
+[3] 10:03:35:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 10:03:35: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 10:03:35: Searcher found 0 results in 65.2192 ms
+[3] 10:03:35:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 10:03:35:  + RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 10:03:35:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 10:03:35:  + ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 10:03:35:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 10:03:35:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 10:03:35: Opened from Workspace File 'C:\Tosca_Projects\ToscaGithub\Tosca\Tosca.tws'
+[3] 10:03:35: Trying to authenticate ldap user sss927832 against workspace
+[3] 10:03:36: Failed to authenticate ldap user against workspace
+[3] 10:03:37: Layout not saved: No Panels or Tabbed Documents
+[3] 10:03:44: Closing Workspace!
+[3] 10:03:44: Log closed!
