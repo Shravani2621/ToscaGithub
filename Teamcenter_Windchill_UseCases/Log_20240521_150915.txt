@@ -1,0 +1,57 @@
+[3] 15:09:15: Log started for 'C:\Tosca_Projects\ToscaGithub\Teamcenter_Windchill_UseCases\Teamcenter_Windchill_UseCases.tws'
+[3] 15:09:15: Log level: 4
+[3] 15:09:15: Release: 34.3.0.1553
+[3] 15:09:15: Execution Approval is disabled.
+[3] 15:09:15: No service discovery configured.
+[3] 15:09:15:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 15:09:15:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 15:09:15:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 15:09:15:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 15:09:15:  - ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  - ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 15:09:16: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 15:09:16: Searcher found 0 results in 62.0016 ms
+[3] 15:09:16:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  - RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 15:09:16:  - RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 15:09:16:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  - TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 15:09:16:  - ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 15:09:16:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 15:09:16:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 15:09:16: Search started on 'Teamcenter_Windchill_UseCases' for query '=>SUBPARTS:TCFolder[(PossibleContent=?"ExecutionList") AND (ContinuousIntegrationBuildRootFolder=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 15:09:16: Searcher found 1 results in 105.0031 ms
+[3] 15:09:16: Search started on 'Teamcenter_Windchill_UseCases' for query '=>SUBPARTS:ExecutionList[(ContinuousIntegration=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 15:09:16: Searcher found 1 results in 3.0001 ms
+[3] 15:09:16: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateTCFolderTask
+[3] 15:09:16: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateExecutionMandateTask
+[3] 15:09:16: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.ClearActuallExecutionLogTask
+[3] 15:09:16: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.ClearAutoMergeListTask
+[3] 15:09:16: API: Executing DropTask Tricentis.TCCore.BusinessObjects.Tasks.AssignMandateDropTask
+[3] 15:09:16: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.RunExecutionListTask
+[3] 15:09:17: Closing Workspace
+[0] 15:09:17: System.ArgumentNullException: No ExecutionList available on ExecutionEntry with Nodepath "<New ExecutionList>/No TestCase assigned".
+Parameter name: MyExecutionList
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.AddToEntiresToExecute(KeyValuePair`2 executionEntry, List`1 entriesToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.PrepareEntries(KeyValuePair`2 itemsToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.ExecuteInternal(ExecutionSet objectsToExecute, Boolean compressLogs)
+[3] 15:09:17: Task 'Run' finished
+[3] 15:09:17: ExceptionInThread occured:
+
+[3] 15:09:17: System.ArgumentNullException: No ExecutionList available on ExecutionEntry with Nodepath "<New ExecutionList>/No TestCase assigned".
+Parameter name: MyExecutionList
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.AddToEntiresToExecute(KeyValuePair`2 executionEntry, List`1 entriesToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.PrepareEntries(KeyValuePair`2 itemsToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.ExecuteInternal(ExecutionSet objectsToExecute, Boolean compressLogs)
+StackTrace:    at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.AddToEntiresToExecute(KeyValuePair`2 executionEntry, List`1 entriesToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.PrepareEntries(KeyValuePair`2 itemsToExecute)
+   at Tricentis.Automation.TCAddIns.ExecutionAddIn.RunTaskExecutor.TBoxRunTaskExecutor.ExecuteInternal(ExecutionSet objectsToExecute, Boolean compressLogs)
+[3] 15:09:17: Closing Workspace!
+[3] 15:09:17: Log closed!

@@ -1,0 +1,40 @@
+[3] 15:23:14: Log started for 'C:\Tosca_Projects\ToscaGithub\Teamcenter_Windchill_UseCases\Teamcenter_Windchill_UseCases.tws'
+[3] 15:23:14: Log level: 4
+[3] 15:23:14: Release: 34.3.0.1553
+[3] 15:23:14: Execution Approval is disabled.
+[3] 15:23:14: No service discovery configured.
+[3] 15:23:14:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  - ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  - ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 15:23:14: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 15:23:14: Searcher found 0 results in 62.0339 ms
+[3] 15:23:14:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  - RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 15:23:14:  - RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 15:23:14:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  - TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 15:23:14:  - ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 15:23:14:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 15:23:14:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 15:23:14: Search started on 'Teamcenter_Windchill_UseCases' for query '=>SUBPARTS:TCFolder[(PossibleContent=?"ExecutionList") AND (ContinuousIntegrationBuildRootFolder=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 15:23:14: Searcher found 1 results in 98.9881 ms
+[3] 15:23:14: Search started on 'Teamcenter_Windchill_UseCases' for query '=>SUBPARTS:ExecutionList[(ContinuousIntegration=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 15:23:14: Searcher found 1 results in 2.9889 ms
+[3] 15:23:15: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateTCFolderTask
+[3] 15:23:15: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateExecutionMandateTask
+[3] 15:23:15: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.ClearActuallExecutionLogTask
+[3] 15:23:15: API: Executing DropTask Tricentis.TCCore.BusinessObjects.Tasks.AssignMandateDropTask
+[3] 15:23:15: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.RunExecutionListTask
+[3] 15:23:16: Closing Workspace
+[3] 15:23:16: Closing Workspace!
+[3] 15:23:16: Log closed!

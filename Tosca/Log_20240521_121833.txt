@@ -1,0 +1,140 @@
+[3] 12:18:33: Log started for 'C:\Tosca_Projects\ToscaGithub\Tosca\Tosca.tws'
+[3] 12:18:33: Log level: 4
+[3] 12:18:33: Release: 34.3.0.1553
+[3] 12:18:34: Execution Approval is disabled.
+[3] 12:18:34: No service discovery configured.
+[3] 12:18:34:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  - ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  - ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 12:18:34: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 12:18:34: Searcher found 0 results in 52.2766 ms
+[3] 12:18:34:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  - RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 12:18:34:  - RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 12:18:34:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  - TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 12:18:34:  - ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 12:18:34:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 12:18:34:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 12:18:34: Workspace.Login for 'Admin'succeeded
+[3] 12:18:34: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:18:34: Started update with local revision 14 against common revision 16 with deferred revisions ''
+[3] 12:18:34: Updating to Revision: 16
+[3] 12:18:34: Updating to Revision: 16
+[3] 12:18:34: Task 'Update all' finished
+[3] 12:18:34: Search started on 'Tosca' for query '=>SUBPARTS:TCFolder[(PossibleContent=?"ExecutionList") AND (ContinuousIntegrationBuildRootFolder=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 12:18:34: Searcher found 1 results in 152.2938 ms
+[3] 12:18:34: Search started on 'Tosca' for query '=>SUBPARTS:ExecutionList[(ContinuousIntegration=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 12:18:34: Searcher found 1 results in 4.0014 ms
+[3] 12:18:34: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:18:35: Closing Workspace
+[1] 12:18:36: The currently open transaction was opened by:
+Thread Id: 33 Thread Name: UpdateAllTask main thread
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Tricentis.TCCore.Persistency.Repository.ClusterRepository.ClusterRepository.CreateRepositoryTransaction(Boolean readOnly)
+   at Tricentis.TCCore.Persistency.ObjectHandler.PersistAll(AbstractRepository repository)
+   at Tricentis.TCCore.Base.Tasks.TeamTasks.TeamTask.PerformPersistIfNecessary()
+   at Tricentis.TCCore.Base.Tasks.TeamTasks.TeamTask.RunBeforeUpdate()
+   at Tricentis.TCCore.Base.Tasks.TeamTasks.TeamTask.RunInMainThread()
+   at Tricentis.TCCore.Persistency.Tasks.ThreadTask.StartAndRunInMainThread()
+   at Tricentis.TCCore.Persistency.Tasks.ThreadTask.MetaRunInMainThread()
+   at Tricentis.TCCore.Persistency.Tasks.ThreadTask.MetaRunInMainThreadTracked()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+[1] 12:18:36: The new transaction is being opened by:
+Thread Id: 8 Thread Name: 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Tricentis.TCCore.Persistency.Repository.ClusterRepository.ClusterRepository.CreateRepositoryTransaction(Boolean readOnly)
+   at Tricentis.TCCore.Persistency.Repository.ClusterRepository.Database.SQLite.SQLiteRepository.SetClusterUsage(IEnumerable`1 surrogates)
+   at Tricentis.TCCore.Persistency.ObjectHandler.ClearObjectDictionary()
+   at Tricentis.TCCore.Persistency.ObjectHandler.UnloadAll()
+   at Tricentis.TCCore.Base.Workspace.Close()
+   at Tricentis.TCAPINativeConnector.TCAPIWorkspace.Close()
+   at Tricentis.TCAPINativeConnector.TCAPINativeConnection.InternalCloseWorkspace()
+   at Tricentis.TCAPINativeConnector.TCAPINativeConnection.InternalClose()
+   at Tricentis.TCAPIObjects.TCConnectionBase.Close(Boolean finalizing)
+   at Tricentis.TCAPINativeConnector.TCAPINativeConnection.RaiseLicenseException()
+   at Tricentis.TCAPINativeConnector.TCAPINativeConnection.LicenseHandler(LicenseInfo info)
+   at Tricentis.TCCore.Licensing.ToscaNativeLicenseManager.DeactivateLicense(ILicense evSource)
+   at Tricentis.TCCore.Licensing.ToscaNativeLicenseManager.LicenseExpired(LicenseExpiredEvent ev)
+   at Tricentis.Common.Compliance.SLRMS.Client.Events.LicenseEventListenerList.NotifyAllListeners(LicenseExpiredEvent licenseExpiredEvent)
+   at Tricentis.Common.Compliance.Flexera.LicenseHandling.LicenseHandler.HandleMissingLicense(String featureName)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Tricentis.Common.Compliance.Flexera.LicenseHandling.LicenseHandler.AreRequiredLicensesAcquired(List`1 acquiredLicenses, IEnumerable`1 requiredLicenses)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[3] 12:18:36: Task 'Update all' finished
+[3] 12:18:42: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:18:42: Task 'Update all' finished
+[3] 12:18:49: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:18:49: Task 'Update all' finished
+[3] 12:18:57: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:18:57: Task 'Update all' finished
+[3] 12:19:03: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:03: Task 'Update all' finished
+[3] 12:19:10: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:10: Task 'Update all' finished
+[3] 12:19:16: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:16: Task 'Update all' finished
+[3] 12:19:22: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:22: Task 'Update all' finished
+[3] 12:19:28: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:28: Task 'Update all' finished
+[3] 12:19:34: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:34: Task 'Update all' finished
+[3] 12:19:40: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:40: Task 'Update all' finished
+[3] 12:19:48: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:48: Task 'Update all' finished
+[3] 12:19:56: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:19:56: Task 'Update all' finished
+[3] 12:20:02: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:02: Task 'Update all' finished
+[3] 12:20:09: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:09: Task 'Update all' finished
+[3] 12:20:16: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:16: Task 'Update all' finished
+[3] 12:20:23: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:23: Task 'Update all' finished
+[3] 12:20:30: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:30: Task 'Update all' finished
+[3] 12:20:37: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:37: Task 'Update all' finished
+[3] 12:20:44: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:44: Task 'Update all' finished
+[3] 12:20:52: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:52: Task 'Update all' finished
+[3] 12:20:57: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:20:57: Task 'Update all' finished
+[3] 12:21:03: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:03: Task 'Update all' finished
+[3] 12:21:10: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:10: Task 'Update all' finished
+[3] 12:21:17: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:17: Task 'Update all' finished
+[3] 12:21:23: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:23: Task 'Update all' finished
+[3] 12:21:29: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:29: Task 'Update all' finished
+[3] 12:21:36: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:36: Task 'Update all' finished
+[3] 12:21:42: API: Executing Task Tricentis.TCCore.Base.Tasks.TeamTasks.UpdateAllTask
+[3] 12:21:42: Task 'Update all' finished

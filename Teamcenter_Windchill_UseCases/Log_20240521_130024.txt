@@ -1,0 +1,31 @@
+[3] 13:00:24: Log started for 'C:\Tosca_Projects\ToscaGithub\Teamcenter_Windchill_UseCases\Teamcenter_Windchill_UseCases.tws'
+[3] 13:00:24: Log level: 4
+[3] 13:00:24: Release: 34.3.0.1553
+[3] 13:00:24: Execution Approval is disabled.
+[3] 13:00:24: No service discovery configured.
+[3] 13:00:24:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + DistributedExecutionAddIn: DistributedExecutionAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  - ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  - ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + IntegrationManagementAddIn: IntegrationManagementAddIn 23.2.0.3226 (3226)
+    + : SAPSolutionManagerIntegration 23.2.0.3226 (3226)
+[3] 13:00:24: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 13:00:24: Searcher found 0 results in 54.2465 ms
+[3] 13:00:24:  + OptIntAddIn: OptIntAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + QTestIntegrationAddIn: QTestIntegrationAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + RemoteControl: RemoteControlAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + Reporting: ReportingAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + ReportingUI: ReportingUIAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  - RequirementsManagementAddIn: RequirementsManagement 23.2.0.3226 (3226)
+[3] 13:00:24:  - RequirementsManagementUIAddIn: RequirementsManagementUI 23.2.0.3226 (3226)
+[3] 13:00:24:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  - TestCaseDesign: TestCaseDesign 23.2.0.3226 (3226)
+[3] 13:00:24:  - ControlFlowDiagram: TestCaseVisualizationAddIn 23.2.0.3226 (3226)
+[3] 13:00:24:  + XDefinitions: XDefinitions 23.2.0.3226 (3226)
+[3] 13:00:24:  + XDefinitionsUI: XDefinitionsUI 23.2.0.3226 (3226)
+[3] 13:00:29: Closing Workspace
+[3] 13:00:29: Closing Workspace!
+[3] 13:00:29: Log closed!

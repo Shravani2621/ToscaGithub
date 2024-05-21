@@ -1,9 +1,5 @@
-jumptonode "/Execution/ExecutionLists_1/<New ExecutionList>/UC_01_Creating a Part"
+jumptonode "/Execution/ExecutionLists/Creating a new Part/UC_01_Creating a Part"
 task "clear log"
 task run
 save
 
-jumptonode "/Execution/ExecutionLists_1/<New ExecutionList>_2/UC_01 a_Creating a Part with Document"
-task "clear log"
-task run
-save
