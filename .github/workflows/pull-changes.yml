@@ -1,0 +1,16 @@
+name: Pull Changes on Tosca Update
+
+on:
+  repository_dispatch:
+    types: [tosca_change_detected]
+
+jobs:
+  pull_changes:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      
+    - name: Pull Changes
+      run:  git pull origin master
