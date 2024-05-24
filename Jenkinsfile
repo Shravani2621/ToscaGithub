@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('hello') {
       steps {
-        sh 'pwsh tosca.ps1'
+        sh 'pwsh hello.ps1'
       }
     }
   }
