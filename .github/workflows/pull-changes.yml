@@ -1,16 +1,19 @@
-name: Pull Changes on Tosca Update
+name: Trigger on Tosca Commander Changes
 
 on:
-  repository_dispatch:
-    types: [tosca_change_detected]
+  push:
+    paths:
+      - 'C:\Tosca_Projects\ToscaGithub\Tosca_Jenkins_Integration\Tosca_Jenkins_Integration.tws' # Adjust this to match the path to your Tosca Commander files
 
 jobs:
-  pull_changes:
+  build:
     runs-on: windows-latest
-    
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
       
-    - name: Pull Changes
-      run:  git pull origin master
+    - name: Run Tosca Commander Tests
+      run: |
+        # Add commands to run Tosca Commander tests here
+
