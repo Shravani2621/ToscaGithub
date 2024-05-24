@@ -3,7 +3,7 @@ name: Trigger on Tosca Commander Changes
 on:
   push:
     paths:
-      - 'C:\Tosca_Projects\ToscaGithub\Tosca_Jenkins_Integration\Tosca_Jenkins_Integration.tws' # Adjust this to match the path to your Tosca Commander files
+      - 'Tosca_Jenkins_Integration/Tosca_Jenkins_Integration.tws' # Adjust this to match the path to your Tosca Commander files
 
 jobs:
   build:
