@@ -13,6 +13,12 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
       
+    - name: Pull Tosca Commander Changes
+      run: |
+        git config --global user.email "Shravani.S@tatatechnologies.com"
+        git config --global user.name "Shravani2621"
+        git pull origin master
+        
     - name: Run Tosca Commander Tests
       run: |
         # Add commands to run Tosca Commander tests here
